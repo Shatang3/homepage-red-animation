@@ -66,34 +66,7 @@ npm run dev
 ### 4. 访问项目
 打开浏览器访问 [http://localhost:3000](http://localhost:3000)
 
-## 如何上传到GitHub
 
-### 1. 创建GitHub仓库
-- 登录GitHub，点击右上角的"+"号
-- 选择"New repository"
-- 填写仓库名称（建议使用项目名称）
-- 选择"Public"或"Private"（建议选择Public以便展示）
-- 不要勾选"Initialize this repository with a README"（因为本地已有）
-
-### 2. 初始化本地Git仓库
-```bash
-git init
-git add .
-git commit -m "Initial commit: 红色动画效果项目"
-```
-
-### 3. 连接远程仓库并推送
-```bash
-git branch -M main
-git remote add origin https://github.com/你的用户名/你的仓库名.git
-git push -u origin main
-```
-
-### 4. 部署到Vercel（可选）
-- 访问 [vercel.com](https://vercel.com)
-- 使用GitHub账号登录
-- 点击"Import Project"选择你的仓库
-- Vercel会自动检测Next.js项目并部署
 
 ## 代码保护措施
 
